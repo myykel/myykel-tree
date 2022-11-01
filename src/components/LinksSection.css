@@ -1,0 +1,33 @@
+#links_section a {
+  text-decoration: none;
+}
+
+.links_container {
+  color: #101828;
+  background: #eaecf0;
+  padding: 1.4rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+.links_container:hover {
+  background: #bdbfc3;
+}
+
+.links_container span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.links_container p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0;
+}
+
+.social-icons {
+  margin-top: 2rem;
+}
+
+.social-icons img:last-child {
+  margin-left: 1rem;
+}

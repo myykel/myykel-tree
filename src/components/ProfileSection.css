@@ -1,0 +1,15 @@
+#profile_section {
+ margin: 2.5rem 0;
+}
+
+#profile__img {
+  border-radius: 50%;
+  height: 88px;
+  width: 88px;
+  object-fit: cover;
+}
+
+#twitter{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
