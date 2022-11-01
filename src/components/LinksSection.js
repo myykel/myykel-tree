@@ -56,7 +56,7 @@ export default function LinksSection() {
 
       <div className="social-icons">
         <img src={slack} alt="slack icon" />
-        <a href="" target="blank">
+        <a href="https://github.com/myykel/myykel-tree" target="blank">
           <img src={github} alt="github icon" />
         </a>
       </div>
