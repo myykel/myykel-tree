@@ -1,0 +1,133 @@
+.contact-form {
+    width: 70%;
+    margin: 4rem auto;
+    text-align: left;
+  }
+  
+  .contact-form h1 {
+    font-weight: 600;
+    color: #101828;
+  }
+  
+  .contact-form h4 {
+    font-weight: 400;
+    color: #475467;
+    margin-bottom: 0;
+  }
+  
+  .contact-form .name-wrapper {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+  }
+  
+  .contact-form .name-wrapper label {
+    flex: 1;
+  }
+  
+  .contact-form form .form-label {
+    display: block;
+    padding: 1.5rem 0 0;
+  }
+  
+  .contact-form form label span {
+    color: #344054;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .contact-form form input[type="text"],
+  .contact-form form input[type="email"],
+  .contact-form form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    outline-color: #84caff;
+    font-family: var(--text-family);
+  }
+  
+  .contact-form form textarea {
+    min-height: 120px;
+    resize: none;
+  }
+  
+  .contact-form form input::placeholder,
+  .contact-form form textarea::placeholder {
+    color: #667085;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: var(--text-family);
+  }
+  
+  .contact-form .checkbox-container {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-form form label span,
+  .contact-form .checkbox-container label {
+    color: #475467;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  .contact-form .checkbox-container input {
+    border: 1px solid #d0d5dd;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 0.7rem;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+  }
+  
+  .contact-form .checkbox-container .checked {
+    background-color: #1570ef;
+  }
+  
+  .contact-form #btn__submit {
+    background-color: #1570ef;
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  /* ERROR */
+  .contact-form form .error textarea {
+    outline: 2px solid #f89687;
+  }
+  
+  .contact-form form .error p {
+    color: #f89687;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+  /* MEDIAA QUERRIES */
+  @media screen and (max-width: 550px) {
+    .contact-form {
+      width: 100%;
+    }
+  
+    .contact-form .name-wrapper {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .contact-form .checkbox-container {
+      align-items: flex-start;
+    }
+  }
+  

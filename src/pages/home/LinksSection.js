@@ -1,8 +1,9 @@
 import "./LinksSection.css";
 
 // ASSETS
-import github from "../assets/github.png";
-import slack from "../assets/slack.png";
+import github from "../../assets/github.png";
+import slack from "../../assets/slack.png";
+import { Link } from "react-router-dom";
 
 export default function LinksSection() {
   return (
@@ -53,6 +54,12 @@ export default function LinksSection() {
           <p>Learn Design with this free book</p>
         </div>
       </a>
+
+      <Link to='/contact' id='contact'>
+      <div className="links_container">
+        <span>Contact</span>
+      </div>
+      </Link>
 
       <div className="social-icons">
         <img src={slack} alt="slack icon" />

@@ -2,7 +2,7 @@
 import './ProfileSection.css'
 
 // ASSETS
-import Myykel from "../assets/myykel.jpg";
+import Myykel from "../../assets/myykel.jpg";
 
 export default function ProfileSection() {
   return (
